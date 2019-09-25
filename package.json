@@ -1,0 +1,35 @@
+{
+  "name": "barnowl-rci",
+  "homepage": "https://github.com/reelyactive/barnowl-rci/",
+  "author": "reelyActive <webdev@reelyactive.com>",
+  "description": "Interface the RAIN RFID RCI to barnowl open source software.  We believe in an open Internet of Things.",
+  "keywords": [
+    "reelyActive",
+    "barnowl",
+    "RAIN RFID",
+    "RAIN Communication Interface",
+    "RCI"
+  ],
+  "version": "0.1.0",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "main": "./lib/barnowlrci.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reelyactive/barnowl-rci.git"
+  },
+  "dependencies": {
+    "advlib-identifier": ">=0.1.0",
+    "raddec": ">=0.2.0"
+  },
+  "devDependencies": {
+  },
+  "bugs": {
+    "url": "https://github.com/reelyactive/barnowl-rci/issues"
+  },
+  "contributors": [
+    { "name": "Jeffrey Dungen" }
+  ],
+  "license": "MIT"
+}
